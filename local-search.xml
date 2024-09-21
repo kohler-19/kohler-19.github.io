@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>GPU编程实战（基于Python和CUDA）</title>
+    <link href="/2024/09/21/GPU-Programming/"/>
+    <url>/2024/09/21/GPU-Programming/</url>
+    
+    <content type="html"><![CDATA[<h1 id="GPU编程实战（基于Python和CUDA）PDF"><a href="#GPU编程实战（基于Python和CUDA）PDF" class="headerlink" title="GPU编程实战（基于Python和CUDA）PDF"></a>GPU编程实战（基于Python和CUDA）PDF</h1><p><img src="https://s21.ax1x.com/2024/09/12/pAnDaLQ.png"></p><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>本书旨在引导读者基于 Python 和CUDA 的 GPU 编程开发高性能的应用程序，先后介绍了为什么要学习 GPU 编程、搭建 GPU编程环境、PyCUDA入门等内容，以及 CUDA 代码的调试与性能分析、通过 Scikit-CUDA 模块使用 CUDA 库、实现深度神经网络、CUDA 性能优化等内容。学完上述内容，读者应能从零开始构建基于 GPU的深度神经网络，甚至能够解决与数据科学和 GPU编程高性能计算相关的问题。</p><p>本书适合对GPU 编程与 CUDA编程感兴趣的读者阅读。读者应掌握必要的基本数学概念，且需要具备一定的 Python编程经验。</p><p>豆瓣介绍链接： <a href="https://book.douban.com/subject/35920149/">GPU编程实战（基于Python和CUDA） (豆瓣)</a>     </p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>下载链接： <a href="https://url22.ctfile.com/f/39421622-1363265113-648b8f?p=6178">https://url22.ctfile.com/f/39421622-1363265113-648b8f?p=6178</a> (访问密码: 6178)</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>电子书</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>hexo安装后报错&#39;hexo&#39; 不是内部或外部命令，也不是可运行的程序 或批处理文件。</title>
     <link href="/2024/09/21/hexo-error/"/>
     <url>/2024/09/21/hexo-error/</url>
