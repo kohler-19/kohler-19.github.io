@@ -4,32 +4,19 @@
   
   
   <entry>
-    <title>test</title>
-    <link href="/2024/09/21/test/"/>
-    <url>/2024/09/21/test/</url>
+    <title>hexo安装后报错&#39;hexo&#39; 不是内部或外部命令，也不是可运行的程序 或批处理文件。</title>
+    <link href="/2024/09/21/hexo-error/"/>
+    <url>/2024/09/21/hexo-error/</url>
     
-    <content type="html"><![CDATA[<p><img src="/images/test.png"></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="hexo问题"><a href="#hexo问题" class="headerlink" title="hexo问题"></a>hexo问题</h2><p>之前利用hexo和gitee搭建了一个博客，但是最近gitee的gitpage停止服务了，便想着在github上搭建一个。<br>在到安装hexo这一步的时候，一直报错<code>&#39;hexo&#39; 不是内部或外部命令，也不是可运行的程序 或批处理文件。</code><br>我的所有安装步骤和环境变量发现都没有错，反复配置后去找了一下官方文档：<a href="https://hexo.io/zh-cn/docs/">https://hexo.io/zh-cn/docs/</a><br>在往前的教程步骤中hexo 的命令直接是<code>hexo xxx</code>,但是现在直接hexo xxx就不行了。</p><h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p>官方文档的描述：<br><img src="https://s21.ax1x.com/2024/09/21/pAMG5a6.png"><br>由此可见hexo的命令变为了<code>npx hexo xxx</code>。<br>于是我便测试了一下<code>npx hexo init hexo-blog</code><br><img src="https://s21.ax1x.com/2024/09/21/pAMGTPO.png" alt="image"><br><strong>直接就可以用啦！！！</strong></p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>就是hexo的使用命令从<code>hexo xxx</code>改为了<code>npx hexo xxx</code>。</p>]]></content>
     
     
     
     <tags>
       
-      <tag>test</tag>
+      <tag>报错解决</tag>
       
     </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="/2024/09/21/hello-world/"/>
-    <url>/2024/09/21/hello-world/</url>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
     
   </entry>
   
